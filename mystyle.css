@@ -1,0 +1,68 @@
+h1{
+    font-family: "Time New Roman", serif;
+    font-size: 15px;
+    color: darkgray;
+}
+h2{
+	font-family: "Courier New", monospace;
+	font-size: 10px;
+	text-align: center;
+	color: lightgrey;
+}
+h3{
+	font-family: "Time New Roman", serif;
+    font-size: 15px;
+    color: dimgrey;
+}
+
+p{
+	text-align: center;
+	color: lightslategrey;
+	font-size: 18px;
+}
+
+img{
+    border-radius: 15px 30px 60px 40px;
+
+}
+
+hr{
+     color: dimgrey;
+     border: 5px dotted;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li a {
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 14px;
+	text-decoration: none;
+	float: left;
+}
+
+li a:hover{
+	opacity: 0.75;
+}
+
+
+#bar{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #9E7A7A;
+	top: 0;
+}
+
+#home{
+	background-color: white;
+}
+
+#endbar{
+	background-color: #9E7A7A;
+}

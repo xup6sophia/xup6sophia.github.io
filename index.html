@@ -1,0 +1,136 @@
+<!--
+	有關 CV 首頁的 index.html 實作部分需包含以下項目
+	• (30 points) <body> 區塊內使用 10 種以上的 html 標籤類型 (例如 hr, ul, li ... 等)
+	• (20 points) CV 首頁中成功顯示 2 張以上的圖片 (圖片語法中使用相對路徑和絕對路徑方式各1)
+	• (20 points) 將 CSS 特效放置於 .css 檔案中，上傳到 repository 並使用 link 方式整合，在.css 檔案中需具備 5 種以上 的 CSS 特效類型，並在 index.html 中以註解標示說明搭配之 CSS 特效效果
+-->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="109403533 in CLASS B">
+		<meta name="discription" content="Web Programming FinalExam">
+		<title>109403533 personal CV</title>
+
+		<link rel="stylesheet" href="mystyle.css">
+	</head>
+	<body bgcolor="#0F2540">
+		<div>
+			<!-- 
+				<ul> CSS特效 : 設定項目標籤型態list-style-type: none 
+				#bar : 邊界相關設定margin為0, padding為0, top為0, 背景顏色#9E7A7A, 超越邊界則hidden
+			-->
+			<ul id="bar">	
+				<!--
+					<li><a> CSS特效 : 設定字型Courier New, 字體大小20px, 字體置中, 顏色white, 不要有text-decoration, 以區塊方式顯示，區塊偏左
+					<li><a>:hover CSS特效 : 滑鼠移動上去會透明度改為0.75
+				-->
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#interests">INTERESTS</a></li>
+				<li><a href="#achievements">ACTIVITIES & ACHIEVMENTS</a></li>
+				<li><a href="#endbar">SPECIAL CREDITS</a></li>
+			</ul>
+		</div>
+		<section id="home">	 <!-- #home : 背景顏色white -->
+			<br>
+			<!-- <h1> CSS特效 :	設定字型Time New Roman，字體大小15px, 顏色darkgray -->
+			<h1>&ensp;////////// &ensp;HOME SECTION</h1>
+			<table border-style="none">
+				<tr>
+					<td>
+						<img src="./image/pic1.jpg" alt="This is my profile photo." width="300" height="300" align="center">
+					</td>
+					<td>
+						<p><span style="color: dimgrey; font-size: 80px; align-content: center;">Hello! I'm 109403533.</span></p>
+						<!-- <hr> CSS特效 : 設定線條顏色dimgrey, 寬度值5px, 樣式dotted -->
+						<hr>
+						<br>
+						<!-- <h3> CSS特效 : 設定字型Time New Roman，字體大小15px, 顏色dimgrey -->
+						<h3>An undergraduate student.</h3>
+						<h3>Majoring in MIS.</h3>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section id="interests">
+			<br>
+			<h1>&ensp;////////// &ensp;INTERESTS SECTION</h1>
+			<table border-style="none" align="center">
+				<tr>
+					<!-- <img> CSS特效 : 設定圖片圓角 15px 30px 60px 40px -->
+					<td>
+						<img src="./image/pic2.JPG" alt="Swimming" width="400" height="300" align="center">
+					</td>
+					<td>
+						<img src="./image/pic3.jpg" alt="Photography" width="400" height="300" align="center">
+					</td>
+					<td>
+						<img src="./image/pic4.jpg" alt="Travelling" width="400" height="300" align="center">
+					</td>
+				</tr>
+				<tr>
+					<!-- <p> CSS特效 : 字體大小18px, 字體置中, 顏色lightslategrey -->
+					<td>
+						<p>--- Swimming ---</p>
+					</td>
+					<td>
+						<p>--- Photography ---</p>
+					</td>
+					<td>
+						<p>--- Travelling ---</p>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section id="achievements">
+			<br>
+			<h1>&ensp;////////// &ensp;ACTIVITIES & ACHIEVEMENTS SECTION</h1>
+			<table border-style="none" align="center">
+				<tr>
+					<td>
+						<img src="./image/icon1.jpg" alt="Chinese, English, Japanese" width="270" height="270" align="center">
+					</td>
+					<td>
+						<img src="./image/icon2.jpg" alt="Minor in CSIE" width="270" height="270" align="center">
+					</td>
+					<td>
+						<img src="./image/icon3.jpg" alt="School's Swimming Team" width="270" height="270" align="center">
+					</td>
+					<td>
+						<img src="./image/icon4.jpg" alt="Student Association of MIS" width="270" height="270" align="center">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>--- Chinese, English, Japanese ---</p>
+					</td>
+					<td>
+						<p>--- Minor in CSIE ---</p>
+					</td>
+					<td>
+						<p>--- School's Swimming Team ---</p>
+					</td>
+					<td>
+						<p>--- Student Association of MIS ---</p>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section id="endbar">
+			<!-- <h2> CSS特效 : 設定字型Courier New, 字體大小10px, 字體置中, 顏色lightgrey -->
+			<br>
+			<h1>&ensp;////////// &ensp;SPECIAL CREDITS</h1>
+			<h2>Web Programming Course / Prof. PWTsai</h1>
+			<h2>Photo Reference / ME </h2>
+			<h2>Icon Reference / https://thenounproject.com/ </h2>
+			<h2>-------- THANK YOU FOR VISITING MY CV WEBSITE --------</h2>
+			<h2>( ﾟ∀ﾟ)つ≡≡≡♡♡♡)</h2>
+			<br>
+		</section>
+
+
+	</body>
+</html>
